@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.stanford.algorithms.weektwo;
 
 import java.io.BufferedReader;
@@ -66,10 +62,11 @@ public class Main
     }
     
     /**
-     * 
-     * @param inputArray
-     * @param outputArray
-     * @return 
+     * Process quick sort algorithm
+     * @param inputArray Input parameter that represents the array to be sorted
+     * @param sortedArray Output parameter that represents the sorted array after the process 
+     * @param type Type of rule to choose the pivot
+     * @return The number of comparisons done
      */
     private static int quickSort(List<Integer> inputArray, ArrayList<Integer> sortedArray, PivotRuleType type)
     {
@@ -126,8 +123,8 @@ public class Main
     
     /**
      * Choose a pivot for a given array
-     * @param array
-     * @return 
+     * @param array The list of items in which is choosen the pivot
+     * @return The pivot index 
      */
     private static int choosePivot(List<Integer> array, PivotRuleType type)
     {
