@@ -1,5 +1,5 @@
 /**
- * Programming Question - Week 4, http://www.algo-class.org/ July 2013.
+ * Programming Question - Week 4
  * 
  * The file contains the edges of a directed graph. Vertices are labeled as positive 
  * integers from 1 to 875714. Every row indicates an edge, the vertex label in first 
