@@ -1,5 +1,5 @@
 /**
- * Programming Question - Week 1, http://www.algo-class.org/ July 2013.
+ * Programming Question - Week 1, July 2013.
  * 
  * This file contains all of the 100,000 integers between 1 and 100,000 (inclusive)
  * in some order, with no integer repeated.
