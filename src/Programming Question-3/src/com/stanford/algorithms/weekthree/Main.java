@@ -186,7 +186,7 @@ public class Main {
     
     /**
      * Reads the Graph used as input for the assignment
-     * @return An hast that contains each vertice and the list 
+     * @return A hash that contains each vertice and the list 
      * of vertices linked to it
      */
     private static HashMap<Integer, ArrayList<Integer>> readGraphFromFile()
