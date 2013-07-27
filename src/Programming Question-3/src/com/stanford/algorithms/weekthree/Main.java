@@ -1,5 +1,5 @@
 /**
- * Programming Question - Week 3, http://www.algo-class.org/ July 2013.
+ * Programming Question - Week 3, July 2013.
  * 
  * The file contains the adjacency list representation of a simple undirected 
  * graph. There are 200 vertices labeled 1 to 200. The first column in the file
