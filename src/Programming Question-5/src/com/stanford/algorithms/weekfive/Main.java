@@ -80,6 +80,8 @@ public class Main {
      */
     private static int computeDijkstraAlgorithm(Vertex target, HashMap<Integer, Vertex> vertextHashMap)
     {
+        int pathDistance = 0;
+        
         Vertex currentVertex = vertextHashMap.get(1);
         currentVertex.setExplored(true);
         currentVertex.setDistance(0);
@@ -134,12 +136,18 @@ public class Main {
             else
             {
                 //THE TARGET HAS NOT BEEN FOUND
-                currentVertex.setDistance(1000);
                 break;
             }
         }
-                
-        return currentVertex.getDistance();
+        
+        if(currentVertex.getId() == target.getId()){
+            pathDistance = currentVertex.getDistance();
+        }
+        else{
+            pathDistance = 100000;
+        }
+
+        return pathDistance;
     }
     
     /**
