@@ -134,7 +134,7 @@ public class Main {
             else
             {
                 //THE TARGET HAS NOT BEEN FOUND
-                currentVertex.setDistance(1000);
+                currentVertex.setDistance(100000);
                 break;
             }
         }
